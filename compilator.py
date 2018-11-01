@@ -99,6 +99,8 @@ def split_token_from_array(string, printLines):
                     tokens_array.append(token)
 
     file.close()
+
+    print(tokens_array)
     return tokens_array
 
 
